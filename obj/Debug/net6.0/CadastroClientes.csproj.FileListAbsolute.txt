@@ -1,0 +1,15 @@
+C:\Users\copli\OneDrive\Documentos\CadastroClientes\bin\Debug\net6.0\CadastroClientes.exe
+C:\Users\copli\OneDrive\Documentos\CadastroClientes\bin\Debug\net6.0\CadastroClientes.deps.json
+C:\Users\copli\OneDrive\Documentos\CadastroClientes\bin\Debug\net6.0\CadastroClientes.runtimeconfig.json
+C:\Users\copli\OneDrive\Documentos\CadastroClientes\bin\Debug\net6.0\CadastroClientes.dll
+C:\Users\copli\OneDrive\Documentos\CadastroClientes\bin\Debug\net6.0\CadastroClientes.pdb
+C:\Users\copli\OneDrive\Documentos\CadastroClientes\obj\Debug\net6.0\CadastroClientes.csproj.AssemblyReference.cache
+C:\Users\copli\OneDrive\Documentos\CadastroClientes\obj\Debug\net6.0\CadastroClientes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\copli\OneDrive\Documentos\CadastroClientes\obj\Debug\net6.0\CadastroClientes.AssemblyInfoInputs.cache
+C:\Users\copli\OneDrive\Documentos\CadastroClientes\obj\Debug\net6.0\CadastroClientes.AssemblyInfo.cs
+C:\Users\copli\OneDrive\Documentos\CadastroClientes\obj\Debug\net6.0\CadastroClientes.csproj.CoreCompileInputs.cache
+C:\Users\copli\OneDrive\Documentos\CadastroClientes\obj\Debug\net6.0\CadastroClientes.dll
+C:\Users\copli\OneDrive\Documentos\CadastroClientes\obj\Debug\net6.0\refint\CadastroClientes.dll
+C:\Users\copli\OneDrive\Documentos\CadastroClientes\obj\Debug\net6.0\CadastroClientes.pdb
+C:\Users\copli\OneDrive\Documentos\CadastroClientes\obj\Debug\net6.0\CadastroClientes.genruntimeconfig.cache
+C:\Users\copli\OneDrive\Documentos\CadastroClientes\obj\Debug\net6.0\ref\CadastroClientes.dll
