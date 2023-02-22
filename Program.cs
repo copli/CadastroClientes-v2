@@ -17,16 +17,15 @@ using CadastroClientes.Classes;
 // Interpolação
 // Console.WriteLine($"Nome do Cliente: {novaPf.nome} - CPF: {novaPf.cpf}");
 
-
-//Float impostoPagar = novaPj.CalcularImposto(10000.5f);
-//Console.WriteLine($"O imposto a pagar será de: {impostoPagar:0.00}");
-
 // Método construtor
 PessoaFisica novaPf = new PessoaFisica();
 
+float impostoPagar = novaPf.CalcularImposto(10000.5f);
+Console.WriteLine($"O imposto a pagar será de: {impostoPagar:0.00}");
+
 novaPf.nome = "Adriano";
 novaPf.cpf = 01234567890;
-novaPf.dataNasc = new DateTime(2001, 01, 01);
+novaPf.dataNasc = new DateTime(1969, 09, 12);
 
 novaPf.rendimento = 12000.00f;
 
