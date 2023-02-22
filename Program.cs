@@ -5,12 +5,6 @@ using System;
 using CadastroClientes.Classes;
 
 
-// novaPf.nome = "Adriano";
-// novaPf.cpf = 01234567890;
-// novaPf.dataNasc = new DateTime(2001, 01, 01);
-// novaPf.endereco = "Rua Niteroi, 1532";
-// novaPf.rendimento = 12000.00f;
-
 // Console.WriteLine(novaPf.nome);
 // Console.WriteLine(novaPf.cpf);
 // Console.WriteLine(novaPf.dataNasc);
@@ -23,35 +17,34 @@ using CadastroClientes.Classes;
 // Interpolação
 // Console.WriteLine($"Nome do Cliente: {novaPf.nome} - CPF: {novaPf.cpf}");
 
-CalcularImposto(rendimento);
-void CalcularImposto()
-{
-    throw new NotImplementedException();
-    if (rendimento <= 3000)
-{
-float resultado = rendimento * 0,03f;
-return resultado;
-}
- else if (rendimento > 3000 && rendimento <= 6000)
-{
-float resultado = rendimento * 0,05f;
-return resultado;
-}
- else if (rendimento > 6000 && rendimento <= 10000)
-{
-float resultado = rendimento * 0,07f;
-return resultado;
-}
- else
-{
-float resultado = rendimento * 0,09f;
-return resultado;
-}
 
-}
-
-Float impostoPagar = novaPj.CalcularImposto(10000.5f);
-Console.WriteLine($"O imposto a pagar será de: {impostoPagar:0.00}");
+//Float impostoPagar = novaPj.CalcularImposto(10000.5f);
+//Console.WriteLine($"O imposto a pagar será de: {impostoPagar:0.00}");
 
 // Método construtor
-// PessoaFisica novaPf = new PessoaFisica();
+PessoaFisica novaPf = new PessoaFisica();
+
+novaPf.nome = "Adriano";
+novaPf.cpf = 01234567890;
+novaPf.dataNasc = new DateTime(2001, 01, 01);
+
+novaPf.rendimento = 12000.00f;
+
+Endereco novoEndPf = new Endereco();
+
+novoEndPf.logradouro = "Rua Niteroi";
+novoEndPf.numero = 180;
+novoEndPf.complemento = "Senai Informática";
+novoEndPf.endComercial = true;
+
+novaPf.endereco = novoEndPf;
+
+Console.WriteLine(@$"
+Nome: {novaPf.nome}
+Endereço: {novoEndPf.logradouro}, {novoEndPf.numero}
+Maior de idade: {novaPf.ValidarDataNasc(novaPf.dataNasc)}
+");
+
+
+DateTime datNascimento = new DateTime(1969,09,12);
+Console.WriteLine(novaPf.ValidarDataNasc("12/09/1969"));
