@@ -54,23 +54,21 @@ namespace CadastroClientes.Classes
             return false;
         }
 
-        public DateTime ValidarDataNasc(DateTime dataNasc)
+        public bool ValidarDataNasc(DateTime dataNasc)
         {
-            DateTime date1 = DateTime.Now;
-            DateTime date2 = DateTime.UtcNow;
-            DateTime date3 = DateTime.Today;
+            DateTime dataAtual = DateTime.Today;
+            double anos = (dataAtual - dataNasc).TotalDays / 365;
 
-            return date1;
+            if (anos >= 18)
+            {
+                return true;
+            }
+
+            return false;
+
         }
 
-        // public bool ValidarDataNasc(string dataNasc)
-        // {
-        //     throw new NotImplementedException();
-        // }
 
-        bool IPessoaFisica.ValidarDataNasc(DateTime dataNasc)
-        {
-            throw new NotImplementedException();
-        }
+
     }
 }
